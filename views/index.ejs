@@ -1,0 +1,13 @@
+<h2>Ma Todo List</h2>
+<ul>
+		<% for(var i = 0 ; i <= (todo.length-1) ; i++) { %>
+		<li>
+			<a href='delete/<%= i %>'>delete</a> 
+			<%= todo[i] %>
+			
+		</li>
+		<% } %>
+</ul>
+<form>
+<p>What to do next ? <input type="text" name="newtodo"></input> <input type="submit" action="/add"></input</p>
+</form>

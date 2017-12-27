@@ -9,7 +9,9 @@ Nodejs is monothread.
 installation
 -----
 
-Import all necessary libraries in your nodejs installation folder.
+Import all necessary libraries in your nodejs installation folder : 
+- npm install **express**
+- npm install **ejs**
 Use the command 'node index.js' to start app
 Then, go and see the result on http://localhost:9000.
 
@@ -18,6 +20,7 @@ methods
 -----
 
 - **todo**(): nothing available yet
+
 
 events
 -----
